@@ -347,6 +347,11 @@ input[type="submit"] {
 		z-index: -1;
 	}
 }
+@media (max-width: 420px) {
+	.nav ul{
+		font-size: 10px;
+	}
+}
 
 @media all and (max-width: 650px) {
 	.top-header {
