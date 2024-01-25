@@ -5,6 +5,20 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Nina Carducci, photographe. Venez découvrir son portfolio et les diffétrents services proposés">
 	<title>Nina Carducci(by ludovic LEBLOND)</title>
+	<!--------------------- open graph meta --------------------->
+	<meta property="og:site_name" content="Nina Carducci" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://deltatreize.github.io/P9/ninacarducci.github.io-main/index.html" />
+	<meta property="og:title" content="Nina Carducci - photographe professionnelle" />
+	<meta property="og:description" content="venez découvrir mon portfolio ainsi que toutes mes préstations" />
+	<meta property="og:image" content="./assets/images/nina.webp" />
+	<!---------------------- twitter cards ---------------------->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@NinaCarducci" />
+	<meta name="twitter:title" content="Nina Carducci - photographe professionnelle" />
+	<meta name="twitter:description" content="venez découvrir mon portfolio ainsi que toutes mes préstations" />
+	<meta name="twitter:image" content="./assets/images/nina.webp" />
+	<meta name="twitter:url" content="https://deltatreize.github.io/P9/ninacarducci.github.io-main/index.html" />
 	<!-- scripts -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
@@ -16,10 +30,37 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="./assets/style.css">
+	<!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "LocalBusiness",
+		"name": "Nina Carducci",
+		"image": "http://www.googleusercontent.com/assets/images/nina.webp",
+		"telephone": "05 56 67 78 89",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FRANCE"
+		},
+		"priceRange": "A partir de 50€",
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": {
+				"@type": "DayOfWeek",
+				"name": "lundi au vendredi"
+			},
+			"opens": "10",
+			"closes": "19"
+		}
+	}
+	</script>
 </head>
 <body>
 <div class="top-header">
-	<h2 class="name">Nina Carducci</h2>
+	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -67,8 +108,8 @@
 		<img src="./assets/images/nina.webp" alt="nina" >
 	</div>
 	<div id="about-me">
-		<h3 class="about-me__title">A propos de moi</h3>
-		<h4 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h4>
+		<h2 class="about-me__title">A propos de moi</h2>
+		<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
@@ -161,5 +202,10 @@
 		</div>
 	</div>
 </div>
+<footer class="footer">
+	<p>ouvert du lundi au vendredi de 10h à 19h</p>
+	<p>téléphone: 05 56 67 78 89</p>
+	<p>adresse: 68 avenue Alsace-Lorraine, 33200 Bordeaux FRANCE</p>
+</footer>
 </body>
 </html>

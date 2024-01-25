@@ -258,6 +258,17 @@ input[type="submit"] {
 	width: 32px;
 	height: 32px;
 }
+.footer{
+	box-sizing: border-box;
+	padding: 20px 40px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background: #000;
+	color: #fff;
+}
 
 @media all and (max-width: 1180px) {
 	/* .picture {
