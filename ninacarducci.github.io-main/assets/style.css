@@ -269,6 +269,9 @@ input[type="submit"] {
 	background: #000;
 	color: #fff;
 }
+.footer p{
+	margin: 0;
+}
 
 @media all and (max-width: 1180px) {
 	/* .picture {
