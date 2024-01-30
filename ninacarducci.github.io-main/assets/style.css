@@ -87,6 +87,7 @@ body {
 	font-style: italic;
 	width: 60%;
 	font-size: 1em;
+	font-display: swap;
 }
 #about-me p {
 	width: 80%;
@@ -292,7 +293,6 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
 	.picture {
 		width: 50%;
@@ -388,3 +388,9 @@ input[type="submit"] {
 	}
 }
 
+@media (min-width: 1000px) {
+	#about{
+		height: 533px;
+	}
+	
+}

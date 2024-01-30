@@ -5,14 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Nina Carducci, photographe. Venez découvrir son portfolio et les diffétrents services proposés">
 	<title>Nina Carducci(by ludovic LEBLOND)</title>
-	<!-- scripts -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-	<script src="./assets/maugallery.js" defer></script>
-	<script src="./assets/scripts.js" defer></script>
 	<!-- links style -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" defer>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" defer>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"  crossorigin="anonymous" defer>
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="font" defer>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="./assets/style.css">
@@ -81,7 +76,7 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_320.webp" class="d-block w-100" alt="..."
+				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_320.webp" width="200px" height="200px" class="d-block w-100" alt="..."
 				srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_1024.webp 1024w, ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_768.webp 768w, ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_425.webp 425w, ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_320.webp 320w">
 			</div>
 			<div class="carousel-item">
@@ -105,7 +100,7 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="nina" >
+		<img src="./assets/images/nina_320.webp" srcset="./assets/images/nina_320.webp 320w, ./assets/images/nina_425.webp 425w, ./assets/images/nina_1024.webp 1024w" alt="nina" >
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -208,4 +203,8 @@
 	<p>adresse: 68 avenue Alsace-Lorraine, 33200 Bordeaux FRANCE</p>
 </footer>
 </body>
+	<!-- scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<script src="./assets/scripts.concatenated.js" defer></script>
 </html>
